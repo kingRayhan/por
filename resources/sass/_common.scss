@@ -1,0 +1,142 @@
+/* font classes */
+
+/* text-color common class */
+.text-primary {
+    color: #1bb457 !important;
+}
+
+.text-secondary {
+    color: $secondary !important;
+}
+
+.text-heading {
+    color: $heading;
+}
+
+
+.text-paragraph {
+    color: $paragraph;
+}
+
+.text-light-gray {}
+
+.text-white {
+    color: $white;
+}
+
+.bg-ghost-white {
+    background-color: $ghost-white;
+}
+
+.text-placeholder {
+    color: $placeholder;
+}
+
+.text-gray {}
+
+
+.border-bottom {
+    border-bottom: 1px solid $heading !important;
+}
+
+.border-top {
+    border-top: 1px solid $heading !important;
+}
+
+
+
+/* Background Color */
+.bg-primary {
+    background-color: #1bb457 !important;
+}
+
+
+
+
+.bg-secondary {
+    background-color: #274733 !important;
+}
+
+.bg-bittersweet {
+    $bittersweet: #ff6363 !important;
+}
+
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-gainsboro {
+    background-color: $gainsboro;
+}
+
+.bg-lavender {
+    background-color: $lavender;
+}
+
+.bg-gray {
+    background-color: $placeholder;
+}
+
+.bg-dodger-blue {
+    background-color: #61affc !important;
+}
+
+.bg-ghost {
+    background-color: #bcbccb;
+}
+
+
+/* blockquote color */
+.block-left-border {
+    position: relative;
+    border-left: 4px solid red !important;
+    padding-left: 25px;
+
+    p {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+// radious-class
+.radious-10 {
+    border-radius: 10px;
+}
+
+.radious-5 {
+    border-radius: 10px;
+}
+
+
+/* font-weight common class */
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+// line-height
+.lh-0 {
+    line-height: 0;
+}
+
+// Background classes
+.bg-fixed {
+    background-attachment: fixed !important;
+}

@@ -1,0 +1,58 @@
+{% include "templates/header-script.twig"%} {% include "templates/sidebar.twig"%}
+<div class="container-fluid">
+    <!--menu area start from here-->
+    <div class="page-wrapper main-area pt-70 px-75 mb-70">
+        <div class="header-text d-flex justify-content-between align-items-center flex-wrap">
+            <h1 class="">Home</h1>
+            <h3 class="fw-300">12 February, 12:03PM</h3>
+        </div>
+        <!--search bar start from here-->
+        <div class="search-area my-65">
+            <h1 class="text-placeholder fw-400 ">What services can I help you with?</h1>
+            <div class="row">
+                <div class="col-lg-11 col-md-12">
+                    <div class="search-bar">
+                        <form class="card card-sm">
+                            <div class="card-body row no-gutters bg-ghost-white align-items-center">
+                                <div class="col-auto">
+                                    <i class="fa fa-search h4 text-body"></i>
+                                </div>
+                                <!--end of col-->
+                                <div class="col">
+                                    <input class="form-control form-control-lg form-control-borderless bg-ghost-white" type="search" placeholder="Search topics or keywords">
+                                </div>
+                                <!--end of col-->
+                                <div class="col-auto">
+                                    <button class="btn btn-md bg-primary" type="submit">Search</button>
+                                </div>
+                                <!--end of col-->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--end of col-->
+            </div>
+        </div>
+        <div class="service-area px-40 py-30 bg-lavender">
+            <div class="service-text d-flex  justify-content-between">
+                <h3>Start a Transaction: Choose Service Categories</h3>
+                <i class="fa fa-heart"></i>
+            </div>
+            <div class="services d-flex justify-content-between ">
+                <a href="#" class="single-service active mb-50">
+                    <div class="text-center">
+                        <img src="assets/img/icons/service-ico-1.svg">
+                        <h4 class="fw-300 text-white">Vehicle Services</h4>
+                    </div>
+                </a>
+                <a href="" class="single-service">
+                    <div class="text-center">
+                        <img src="assets/img/icons/service-ico-1.svg">
+                        <h4 class="fw-300 text-white">Driver Services</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'templates/footer-script.twig' %}

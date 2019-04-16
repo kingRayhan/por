@@ -1,0 +1,473 @@
+/* media for 1399px*/
+@media screen and (max-width:1699px) {
+    .main-area {
+        padding: 30px;
+    }
+
+}
+
+@media screen and (max-width:1399px) {
+    .search-bar {
+        flex-direction: column;
+    }
+
+    .vehicle-footer {
+        flex-direction: column;
+    }
+
+    .main-area-2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main-sm {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .column-6 {
+        grid-column: span 12 !important;
+    }
+
+    .single-cash {
+        h1 {
+            font-size: 40px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+}
+
+/* media for 1199px*/
+
+@media screen and (max-width:1199px) {
+    .single-result {
+        grid-column: span 6;
+    }
+
+    .vehicle-service-slip {
+        padding: 15px;
+    }
+
+    .column-3 {
+        grid-column: span 6 !important;
+    }
+
+    .continue-btn {
+        margin-left: 0px;
+    }
+
+    .single-payment {
+        margin-right: 25px;
+    }
+
+    .btn-xl {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .slip-created-area {
+        padding: 15px;
+    }
+
+    .dial-pad-area {
+        width: 100% !important;
+    }
+
+    .payment-details {
+        width: 100% !important;
+    }
+
+    .payment-method {
+        width: 100% !important;
+    }
+
+    .payment-area {
+        width: 100% !important;
+    }
+
+    .email-generator {
+        .btn {
+            width: 100% !important;
+        }
+    }
+
+    .transaction-code {
+
+        h1 {
+            font-size: 27px;
+        }
+    }
+
+    .kisok-button {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+/* media for 991px*/
+
+@media screen and (max-width:991px) {
+    .menu-bar {
+        display: block;
+
+    }
+
+    .transaction-code {
+        margin-bottom: 10px;
+    }
+
+    .email-generator {
+        .btn {
+            max-width: 400px !important;
+        }
+    }
+
+    .header-text {
+        display: unset !important;
+
+        h1 {
+            font-size: 55px;
+        }
+    }
+
+    .email-form-area {
+        height: 500px;
+    }
+
+    .services {
+        display: block !important;
+    }
+
+    .single-service {
+        &:last-child {
+            margin-left: 0px;
+        }
+    }
+
+    .main-area {
+        padding: 50px 20px;
+    }
+
+    .vehicle-footer {
+        flex-direction: column;
+    }
+
+    .email-form-text {
+        padding: 30px;
+    }
+
+    .dial-pad-area {
+        width: 100% !important;
+    }
+
+    .payment-details {
+        width: 100% !important;
+    }
+
+    .payment-method {
+        flex-direction: column;
+    }
+
+    .offset-1 {
+        margin-left: 0% !important;
+    }
+
+    .vehicle-service-slip {
+        margin-top: 30px;
+    }
+
+    .created-area {
+        height: 300px;
+
+        &.created-area-2 {
+            height: 500px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .email-area {
+        padding: 10px;
+    }
+}
+
+/* media for 767px*/
+@media screen and (max-width:767px) {
+
+    .header-text {
+        h1 {
+            font-size: 35px;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .search-area {
+        h1 {
+            font-size: 25px;
+        }
+    }
+
+    .service-text {
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+
+
+    .transaction-code {
+        margin-bottom: 30px;
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .email-form-area {
+        padding-bottom: 60px;
+    }
+
+    .email-form-text h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+
+/* media for 575px*/
+
+@media screen and (max-width:575px) {
+    .col-auto {
+        .btn-md {
+            padding: 10px 15px;
+        }
+
+        .btn-xs {
+            padding: 10px 15px;
+        }
+    }
+
+    .avater-area {
+        display: unset !important;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .total-price {
+        h1 {
+            font-size: 18px;
+        }
+    }
+
+    .barcode-area {
+        margin-top: 10px;
+
+        h1 {
+            font-size: 25px;
+        }
+    }
+
+    .export-to {
+        display: unset !important;
+        margin: 0px 60px;
+    }
+
+    .export-btn {
+        margin-left: 0px;
+
+        .btn {
+            margin-bottom: 20px;
+            margin-left: 0px;
+        }
+    }
+
+    .main-area {
+        padding: 50px 10px;
+    }
+
+    .filter-bar .selection button.btn {
+        max-width: 200px;
+    }
+
+    .selection {
+        margin-right: 0px;
+    }
+
+    .single-result {
+        grid-column: span 12;
+    }
+
+    .created-area {
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .single-payment h1 {
+        font-size: 35px;
+    }
+
+    .cash-head h4 {
+        font-size: 18px;
+    }
+
+    .service-area {
+        padding: 10px;
+    }
+
+    .vehicle-service {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .vehicle-footer {
+        display: unset !important;
+    }
+
+    .slip-button {
+        flex-direction: column;
+    }
+
+    .column-3 {
+        grid-column: span 12 !important;
+    }
+
+    .search-result {
+        grid-gap: 15px;
+    }
+
+    .slip-csr {
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 30px !important;
+
+    }
+
+    .full-method-area {
+        padding: 15px;
+    }
+
+    .digit {
+        padding: 20px 20px !important;
+    }
+
+    .csr-form-text {
+        padding: 5px !important;
+
+        .btn {
+            padding: 12px 50px !important;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .transaction-code {
+        h1 {
+            font-size: 15px;
+        }
+    }
+
+    .dial-pad-area {
+        .btn {
+            font-size: 20px;
+        }
+    }
+
+    .header-text {
+        h1 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .search-bar .card-body {
+        padding: 0px 0px 0px 5px;
+    }
+
+    .info-form {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .slip-head {
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .cash-filter-bar .btn {
+        font-size: 20px;
+    }
+
+    .email-area {
+        .form-group {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .cash-filter-bar {
+        padding: 0px;
+        border: 1px solid transparent;
+    }
+
+    .btn-xxl {
+        padding: 10px 15px !important;
+    }
+
+    .info-form {
+        padding: 10px;
+    }
+
+    .btn-llg {
+        font-size: 16px;
+        padding: 12px 50px !important;
+    }
+
+    .report-table-area {
+        padding: 10px;
+    }
+
+    .info-form-area {
+        .btn {
+            &.height-btn {
+                margin-left: 0px;
+            }
+        }
+    }
+
+    .single-payment {
+        padding: 5px;
+        margin-right: 0px;
+    }
+
+    .total-price {
+        margin-top: 50px;
+    }
+
+    .email-form-text {
+        padding: 0px;
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .total-price h3 {
+        font-size: 20px;
+    }
+
+
+}

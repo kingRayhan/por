@@ -1,0 +1,52 @@
+/*------------------------------------------------------------------
+Common Stylesheet
+Project:   POR
+Build:     Bootstrap v4.2.1
+Author:    Electronthemes
+Author URL: http://www.electrontheme.com/
+
+-------------------------------------------------------------------*/
+/*
+Table of contents
+---------------------------------------
+0. Typography
+1. Homepage
+    1.1. Header
+    1.2. Footer
+    1.3. Post Card 
+    1.4. Newsletter
+2. Blog Page
+3. Portfolio Page
+4. Contact page
+5. About Page
+6. 404
+7. Shortcodes
+8. Responsive
+*/
+
+/* ----------------------------------------------------------------
+    typography
+-----------------------------------------------------------------*/
+@import '~bootstrap/scss/bootstrap';
+
+@import 'variables';
+@import 'fonts';
+@import 'reset';
+@import 'mixin';
+@import 'common';
+@import 'header';
+@import 'sidebar';
+@import 'home';
+@import 'transaction-log';
+@import 'kisok-home-1';
+@import 'create-transaction';
+@import 'create-transaction-sm';
+@import 'vehicle-category';
+@import 'confirmation-page';
+@import 'payment';
+@import 'login';
+@import 'cashbook';
+@import 'cashbook-report';
+@import 'button';
+@import 'footer';
+@import 'responsive';

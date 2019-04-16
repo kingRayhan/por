@@ -1,0 +1,27 @@
+// create transaction sm scss
+.continue-btn {
+    margin-top: 15px;
+
+    a {
+        i {
+            font-size: 30px;
+            line-height: 1;
+            color: rgba($color: #808495, $alpha: 0.47);
+            margin-right: 10px;
+
+        }
+    }
+}
+
+// create transaction sm 3 scss
+.result-text-left {
+    h4 {
+        color: $paragraph;
+        font-weight: 400;
+    }
+
+    p {
+        color: rgba($color: #43425d, $alpha: 0.47);
+        font-weight: 400;
+    }
+}

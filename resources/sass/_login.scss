@@ -1,0 +1,105 @@
+// rigister 2 scss
+
+.login-bg {
+    position: relative;
+    background-image: url(../img/icons/login-img-1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: $primary;
+
+}
+
+.kisok-button {
+    margin-bottom: -40px;
+}
+
+.login-head {
+    h1 {
+        color: $midnight;
+        font-size: 62px;
+        font-weight: 300;
+        font-family: "Segoe UI";
+    }
+
+    p {
+        color: rgba($color: #4d4f5c, $alpha: 0.5);
+        font-size: 21px;
+        font-weight: 400;
+
+    }
+
+
+}
+
+.login-form {
+    .form-control {
+        height: 57px;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+
+        &:focus {
+            border-color: $primary;
+            box-shadow: none;
+            background-color: #f8f8f8;
+        }
+
+        &::placeholder {
+            height: 37px;
+            color: $placeholder;
+            font-family: $basic;
+            font-size: 23px;
+            font-weight: 400;
+            vertical-align: middle;
+        }
+    }
+
+}
+
+.checkbox {
+
+    p {
+        color: $midnight;
+        font-size: 19px !important;
+        font-weight: 400;
+
+        a {
+            color: $midnight;
+            font-size: 19px;
+            font-weight: 400;
+        }
+    }
+}
+
+.authorize {
+    a {
+        u {
+            color: #576fff;
+            font-size: 25px;
+            font-weight: 300;
+            font-family: "Segoe UI";
+            text-align: center;
+        }
+    }
+}
+
+.sign-btn {
+    .btn {
+        color: rgba($color: #ffffff, $alpha: 0.5);
+        font-size: 23px;
+        font-weight: 300;
+        font-family: "Segoe UI";
+        border-radius: 10px;
+
+    }
+}
+
+.terms {
+    color: #9ca0b8;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: 300;
+}

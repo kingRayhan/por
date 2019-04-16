@@ -1,0 +1,276 @@
+// trasaction log 1 scss
+.slip-head {
+    height: 68px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.barcode-area {
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+        color: $heading;
+    }
+}
+
+.barcode-details {
+    h4 {
+        span {
+            font-weight: 400;
+
+            .btn {
+                color: $black;
+                background-color: rgba($color: #2fdf4c, $alpha: 0.3);
+                border-radius: 40px;
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+.slip-table {
+    .table {
+
+        th {
+            padding: .75rem;
+            vertical-align: top;
+            border-top: 1px solid transparent !important;
+            border-bottom: 1px solid $dim-gray !important;
+            color: rgba($color: #43425d, $alpha: 0.9);
+            font-size: 28px;
+            font-weight: 400;
+        }
+
+        tbody {
+            td {
+                border-top: 1px solid transparent !important;
+                border-bottom: 1px solid transparent !important;
+                padding: 10px 15px !important;
+                font-size: 25px;
+                font-weight: 400;
+                color: $paragraph;
+                opacity: .98;
+            }
+        }
+
+
+    }
+}
+
+.back-print {
+    .btn {
+        color: rgba($color: #ffffff, $alpha: 0.6);
+        font-weight: 200;
+    }
+}
+
+.total-price {
+    h1 {
+        color: $paragraph;
+        font-size: 45px;
+    }
+}
+
+// trasaction log 2 scss
+.filter-bar {
+    .selection {
+        button {
+            &.btn {
+                background-color: $white-smoke !important;
+                height: 50px;
+                max-width: 220px;
+                color: #1d2339;
+                font-weight: 300;
+                font-family: $basic;
+                font-size: 22px;
+
+                &:hover,
+                :focus,
+                :active {
+                    opacity: .70;
+                    outline: 0;
+                    transition: none;
+                    outline-offset: 0px;
+                    border-color: transparent;
+                }
+            }
+        }
+    }
+
+    &.filter-bar-2 {
+        .selection {
+            button {
+                &.btn {
+                    font-size: 14px;
+
+                }
+            }
+        }
+    }
+}
+
+thead {
+    .table-head {
+        height: 50px;
+        border-top-right-radius: 5px !important;
+        border-top-left-radius: 5px !important;
+
+        th {
+            color: $white;
+            font-family: $source;
+            font-size: 13px;
+            font-weight: 700;
+            border-bottom: 1px solid transparent !important;
+            padding: 10px 10px !important;
+            vertical-align: middle;
+        }
+    }
+}
+
+tbody {
+    td {
+        color: #1d2339;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: 'Segoe UI';
+        font-weight: 200;
+        border-top-color: transparent !important;
+        padding: 15px 10px !important;
+        vertical-align: middle !important;
+
+
+    }
+}
+
+table.dataTable {
+    border: none !important;
+    border-collapse: none !important;
+}
+
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: #fbfbfb;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    opacity: .81;
+}
+
+
+
+.export-to {
+    h5 {
+        color: $midnight;
+        font-family: $basic;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .btn {
+        color: rgba($color: #ffffff, $alpha: 0.7);
+        font-family: $basic;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+
+        &:focus {
+            background-color: rgba($color: #1bb457, $alpha: 0.7) !important;
+        }
+    }
+}
+
+.t-table {
+    .dataTables_paginate {
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        box-sizing: border-box;
+        display: inline-block;
+        min-width: 1.5em;
+        padding: 0.5em 1em;
+        margin-left: 0px;
+        text-align: center;
+        text-decoration: none !important;
+        cursor: pointer;
+        *cursor: hand;
+        color: #4d4f5c !important;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        border: 1px solid #d7dae2 !important;
+        height: 50px !important;
+        width: 60px !important;
+        font-size: 20px;
+        font-weight: 400;
+        flex-wrap: wrap;
+
+        &.previous {
+            width: 100px !important;
+            color: $primary;
+            font-size: 20px;
+            font-weight: 400;
+
+            &:hover {
+                color: $white !important;
+            }
+        }
+
+        &.next {
+            width: 100px !important;
+            color: $white;
+
+            &:hover {
+                color: $white !important;
+            }
+        }
+
+
+
+        &:active {
+            background: $primary;
+            color: $white;
+        }
+
+        &:hover {
+            background: $primary;
+            color: $white;
+        }
+    }
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    border: 1px solid transparent !important;
+    background-color: #1bb457;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1bb457), color-stop(100%, #1bb457));
+    background: -webkit-linear-gradient(top, #1bb457 0%, #1bb457 100%);
+    background: -moz-linear-gradient(top, #1bb457 0%, #1bb457 100%);
+    background: -ms-linear-gradient(top, #1bb457 0%, #1bb457 100%);
+    background: -o-linear-gradient(top, #1bb457 0%, #1bb457 100%);
+    background: linear-gradient(to bottom, #1bb457 0%, #1bb457 100%);
+    color: $white !important;
+}
+
+// trasaction log 3 scss // trasaction log 4 scss
+.paid-status {
+    padding: 5px 30px;
+    background-color: #1bb457;
+    border-radius: 40px;
+    color: $white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 30px;
+
+
+    &.unpaid {
+        background-color: rgba($color: #4d4f5c, $alpha: 0.3);
+    }
+
+    &:hover {
+        color: $white;
+        background-color: rgba($color: #1bb457, $alpha: 0.7);
+    }
+
+}

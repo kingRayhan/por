@@ -1,0 +1,277 @@
+// create transaction 1 scss
+.instruction-line {
+    position: relative;
+    top: 180px;
+
+    &::before {
+        position: absolute;
+        content: '';
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 3px solid $white;
+        bottom: -50px;
+        left: 50px;
+
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        height: 10px;
+        width: 180px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        background-color: $white;
+        bottom: -40px;
+        left: 79px;
+        overflow: hidden;
+    }
+}
+
+.vehicle-service {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+    background: rgba(#e9e9f0, 0.25);
+
+}
+
+.vehicle-service-head {
+    h1 {
+        color: $midnight;
+        font-family: $basic;
+        font-weight: 200;
+    }
+}
+
+.result-text {
+    h5 {
+        opacity: 0.46;
+        color: $placeholder;
+        font-family: $basic;
+        font-weight: 400;
+    }
+}
+
+.search-result {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, auto));
+    grid-gap: 20px;
+    grid-auto-rows: auto;
+}
+
+.single-result {
+    grid-column: span 4;
+    border-radius: 5px;
+    background-color: #e9e9f0;
+    padding: 20px;
+
+    h5 {
+        color: $paragraph;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    h6 {
+        font-weight: 400;
+        color: rgba($color: #43425d, $alpha: 0.38)
+    }
+
+    &.column-3 {
+        grid-column: span 3;
+    }
+
+    &.column-6 {
+        grid-column: span 6;
+    }
+
+
+}
+
+.slip {
+    h4 {
+        font-size: 27px;
+        color: $heading
+    }
+}
+
+.slip-text {
+    p {
+        color: $heading;
+        // font-size: 13px;
+        font-weight: 700;
+
+        span {
+            color: $heading;
+            font-size: 13px;
+            font-weight: 200;
+            margin-left: 5px;
+
+            a {
+                background-color: red;
+                padding: 5px 17px;
+                border-radius: 40px;
+                color: rgba($color: #000000, $alpha: 0.5);
+                font-weight: 700;
+                font-size: 11px;
+                background-color: rgba($color: #ffca83, $alpha: 0.3);
+            }
+        }
+    }
+}
+
+.vehicle-slip {
+    table {
+
+        overflow: hidden;
+
+        th {
+            font-size: 15px !important;
+            color: rgba($color: #43425d, $alpha: 0.9) !important;
+        }
+
+        .slip-table-details {
+            td {
+                color: rgba($color: #43425d, $alpha: 0.9);
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.total-price {
+    h3 {
+        color: $paragraph;
+        font-size: 28px;
+        font-weight: 700;
+    }
+}
+
+.vehicle-service-slip {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+    padding: 40px;
+}
+
+.generate-code {
+    .btn {
+        color: rgba($color: #ffffff, $alpha: 0.6);
+        font-size: 20px;
+        font-weight: 400;
+        // width: 100%;
+
+    }
+}
+
+// create transaction 2 scss
+.created-area {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        font-family: "Segoe UI";
+        font-weight: 200;
+        font-size: 55px;
+    }
+}
+
+.slip-created-area {
+    padding: 40px;
+}
+
+// create transaction 4 scss
+.email-form-area {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.email-form-text {
+    padding: 75px 100px 40px 100px;
+
+    h1 {
+        font-family: "Segoe UI";
+        font-weight: 300;
+    }
+
+    p {
+        color: rgba($color: #808495, $alpha: 0.33);
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    h6 {
+        color: rgba($color: #808495, $alpha: 0.86);
+        font-weight: 400;
+        opacity: 0.86;
+
+        a {
+            color: #8998d8;
+            text-decoration: underline;
+            font-weight: 400;
+        }
+
+
+    }
+}
+
+.email-area {
+    .input-field {
+        position: relative;
+        width: 100%;
+
+        i {
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #b3b7bc;
+            font-weight: 400;
+            width: 20px;
+            padding: 15px 8px;
+            opacity: .60
+        }
+    }
+
+    .form-control {
+        height: 50px;
+        padding: .375rem 1.75rem;
+        background-color: rgba($color: #e9e9f0, $alpha: 0.20);
+        border-color: transparent;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+
+        &:focus {
+            color: #495057;
+            border-color: $primary;
+            outline: 0;
+            box-shadow: 0 0 0 .0rem rgba(0, 0, 0, .0);
+        }
+
+        &::placeholder {
+            color: $heading;
+        }
+
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+}
+
+.transaction-code {
+    h1 {
+        color: $primary;
+        font-size: 45px;
+        font-weight: 300;
+        font-family: "Segoe UI";
+    }
+}

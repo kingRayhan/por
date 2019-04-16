@@ -1,0 +1,26 @@
+.resut-card-text {}
+
+.single-result {
+    &.single-result-vehicle {
+        h6 {
+            a {
+                color: rgba($color:#43425d, $alpha:1);
+                font-size: 15px;
+                font-weight: 400;
+
+                &:hover {
+                    color: $primary;
+                }
+
+            }
+        }
+
+        p {
+            opacity: 0.38;
+            color: rgba($color:#43425d, $alpha:.58);
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 1;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+a:active,
+a:focus,
+input,
+select,
+textarea {
+    outline: none !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+a,
+.container {
+    text-decoration: none !important;
+    transition: all 0.5s;
+}
+
+a:hover,
+.btn,
+button,
+.btn:hover {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a:focus,
+button:focus {
+    outline: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: $midnight;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+p {
+    line-height: 16px;
+    font-size: 14px;
+    color: $paragraph;
+}
+
+blockquote {
+    font-size: 20px;
+    color: gray;
+    line-height: 1.7;
+}
